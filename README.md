@@ -34,6 +34,19 @@ The system classifies login attempts as **Genuine** or **Imposter** using timing
 - Voting Classifier (KNN + RF + Extra Trees)
 
 ---
+## 📁 Project Structure
+```text
+Dynamic-Keystroke-Authentication/
+├── Data/
+│   └── KeystrokeData.csv          # Training dataset (Imbalanced: Genuine vs Imposter)
+├── Jupyter Notebooks/
+│   └── Keystroke.ipynb            # Feature engineering & Model training
+├── test/
+│   ├── test.ipynb                 # Prediction script for new data
+│   └── keystroke_predictions.csv  # Output results with probability scores
+├── KeystrokeLoggingApplication.jar # Java tool for data collection
+└── PROJECT_ARCHITECTURE.md        # Detailed documentation
+```
 
 ## 🏆 Results
 
